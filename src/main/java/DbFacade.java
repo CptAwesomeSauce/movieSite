@@ -14,7 +14,7 @@ public class DbFacade implements AutoCloseable {
     private String username;
     private String password;
 
-    // I learned GIT [DAVE - (253 -778 -0895)
+    // I learned GIT [DAVE - (253 -778 -0985)
     public DbFacade() {
         System.out.println("this is working and building as desired");
         //open connection to DB
