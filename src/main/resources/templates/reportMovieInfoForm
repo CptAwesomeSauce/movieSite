@@ -4,28 +4,32 @@
 <form action="reportMovieInfo">
   <input type="text" id="title" name="title">
   <input type="submit">
-</form>
+</form> <br>
 <form action="reportMovieInfo">
   <input type="text" id="ISAN_ID" name="ISAN_ID">
   <input type="submit">
-</form>
+</form> <br>
 <form action="reportMovieInfo">
   <input type="text" id="genre" name="genre">
   <input type="submit">
-</form>
+</form> <br>
 <form action="reportMovieInfo">
   <input type="text" id="MPAA_Rating" name="MPAA_Rating">
   <input type="submit">
-</form>
+</form> <br>
 <form action="reportMovieInfo">
   <input type="text" id="language" name="language">
   <input type="submit">
-</form>
+</form> <br>
 <form action="reportMovieInfo">
   <input type="text" id="length" name="length">
   <input type="submit">
-</form>
+</form> <br>
 <form action="reportMovieInfo">
   <input type="text" id="date" name="date">
   <input type="submit">
-</form>
+</form> <br> <br>
+
+<button type="submit">Submit</button>
+</p>
+</html>
