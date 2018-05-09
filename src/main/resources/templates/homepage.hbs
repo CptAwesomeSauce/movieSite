@@ -1,0 +1,25 @@
+{{>header.hbs}}
+
+<form action="homepages" method="post">
+
+    <label for="uname">Username:</label>
+    <input type="text" id="uname" name="login_field"> <br>
+
+    <label for="pword">Password:</label>
+    <input type="text" id="pword" name="pword_field"> <br>
+
+    <p><button type="submit">Login</button></p>
+
+<ol>
+    <li><a href="/addReviewForm"> Add a review </a></li>
+    <li><a href="/addMovieForm"> Add a movie </a></li>
+    <li><a href="/viewCountForm"> Check a movie's view count</a></li>
+    <li><a href="/editReviewForm"> Edit review </a></li>
+    <li><a href="/reportMovieInfoForm"> Search movies </a></li>
+    <li><a href="/reportUserReviews"> View users' reviews </a></li>
+</ol>
+
+</form>
+
+{{>footer.hbs}}
+
