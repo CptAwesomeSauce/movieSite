@@ -10,6 +10,24 @@
 
     <p><button type="submit">Login</button></p>
 
+</form>
+
+<form>
+    <form action="stevensPage" method="post">
+    <p>Search for a movie:</p>
+    <label for="">Title:</label>
+    <input type="text" id="" algin = "right" name="_field" required> <br>
+        <p>Genre:
+            <input type="radio" name="genre_field" value="horror"> Horror
+            <input type="radio" name="genre_field" value="comedy"> Comedy
+            <input type="radio" name="genre_field" value="romance"> Romance
+            <input type="radio" name="genre_field" value="action"> Action
+        </p>
+
+        <p><button type="submit">Search</button></p>
+
+</form>
+
 <ol>
     <li><a href="/addReviewForm"> Add a review </a></li>
     <li><a href="/addMovieForm"> Add a movie </a></li>
@@ -19,7 +37,6 @@
     <li><a href="/reportUserReviews"> View users' reviews </a></li>
 </ol>
 
-</form>
+
 
 {{>footer.hbs}}
-
