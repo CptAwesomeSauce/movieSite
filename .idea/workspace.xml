@@ -2,47 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa9be432-382b-495c-bbdd-1b43cc1b341d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.6/fileChanges/last-build.bin" afterPath="$PROJECT_DIR$/.gradle/4.6/fileChanges/last-build.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/java/main/DBPopulation.class" afterPath="$PROJECT_DIR$/build/classes/java/main/DBPopulation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/java/main/DbFacade.class" afterPath="$PROJECT_DIR$/build/classes/java/main/DbFacade.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/java/main/FileParse.class" afterPath="$PROJECT_DIR$/build/classes/java/main/FileParse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/java/main/runner.class" afterPath="$PROJECT_DIR$/build/classes/java/main/runner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/java/test/DBPopulationTest.class" afterPath="$PROJECT_DIR$/build/classes/java/test/DBPopulationTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/java/test/DbFacadeTest.class" afterPath="$PROJECT_DIR$/build/classes/java/test/DbFacadeTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/cache.properties" afterPath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/cache.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/vcsWorkingDirs/gc.properties" afterPath="$PROJECT_DIR$/.gradle/vcsWorkingDirs/gc.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mariadb_jdbc_mariadb_java_client_2_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mariadb_jdbc_mariadb_java_client_2_2_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/DBAccess.iml" afterPath="$PROJECT_DIR$/.idea/modules/DBAccess.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/DBAccess_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/DBAccess_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/DBAccess_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/DBAccess_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradlew" afterPath="$PROJECT_DIR$/gradlew" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradlew.bat" afterPath="$PROJECT_DIR$/gradlew.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/DBPopulation.java" afterPath="$PROJECT_DIR$/src/main/java/DBPopulation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/DbFacade.java" afterPath="$PROJECT_DIR$/src/main/java/DbFacade.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/FileParse.java" afterPath="$PROJECT_DIR$/src/main/java/FileParse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/runner.java" afterPath="$PROJECT_DIR$/src/main/java/runner.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/DBPopulationTest.java" afterPath="$PROJECT_DIR$/src/test/java/DBPopulationTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/DbFacadeTest.java" afterPath="$PROJECT_DIR$/src/test/java/DbFacadeTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -146,17 +106,17 @@
       <file leaf-file-name="DbFacade.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/DbFacade.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="16" column="45" lean-forward="false" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+            <state relative-caret-position="484">
+              <caret line="85" column="42" lean-forward="false" selection-start-line="85" selection-start-column="42" selection-end-line="85" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1525733371288" expanded="true" signature="1734:1821" ph=" INSERT statement (REVIEW)" />
-                <marker date="1525733371288" expanded="true" signature="2730:2768" ph=" INSERT statement" />
-                <marker date="1525733371288" expanded="true" signature="3694:3800" ph=" INSERT statement (MOVIE)" />
-                <marker date="1525733371288" expanded="true" signature="4739:4788" ph=" SELECT statement (MOVIE_USER)" />
-                <marker date="1525733371288" expanded="true" signature="5512:5639" ph=" SELECT statement (MOVIE, REVIEW)" />
-                <marker date="1525733371288" expanded="true" signature="6326:6380" ph=" SELECT statement (REVIEW)" />
-                <marker date="1525733371288" expanded="true" signature="6426:6480" ph=" SELECT statement (REVIEW)" />
+                <marker date="1525747397518" expanded="true" signature="1734:1821" ph=" INSERT statement (REVIEW)" />
+                <marker date="1525747397518" expanded="true" signature="2730:2768" ph=" INSERT statement" />
+                <marker date="1525747397518" expanded="true" signature="3694:3800" ph=" INSERT statement (MOVIE)" />
+                <marker date="1525747397518" expanded="true" signature="4739:4788" ph=" SELECT statement (MOVIE_USER)" />
+                <marker date="1525747397518" expanded="true" signature="5512:5639" ph=" SELECT statement (MOVIE, REVIEW)" />
+                <marker date="1525747397518" expanded="true" signature="6326:6380" ph=" SELECT statement (REVIEW)" />
+                <marker date="1525747397518" expanded="true" signature="6426:6480" ph=" SELECT statement (REVIEW)" />
               </folding>
             </state>
           </provider>
@@ -177,7 +137,7 @@
       <file leaf-file-name="DBPopulationTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/DBPopulationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
+            <state relative-caret-position="275">
               <caret line="13" column="30" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -537,10 +497,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="1" />
-    <option name="width" value="1938" />
-    <option name="height" value="1088" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1942" />
+    <option name="height" value="1102" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -557,9 +517,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -596,46 +555,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DBAccess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DBAccess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DBAccess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DBAccess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="gradle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -646,6 +565,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -653,6 +573,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RunManager" selected="JUnit.DbFacadeTest.testSelectReviewByCommentLength">
     <configuration default="false" name="DbFacadeTest.testAddMovie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -992,6 +913,14 @@
       <option name="presentableId" value="Default" />
       <updated>1523650899470</updated>
     </task>
+    <task id="LOCAL-00001" summary="fixed ph#">
+      <created>1525747465302</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1525747465302</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1027,14 +956,14 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="1" width="1938" height="1088" extended-state="0" />
-    <editor active="true" />
+    <frame x="-11" y="-11" width="1942" height="1102" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33596393" sideWeight="0.51731604" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32963374" sideWeight="0.50431967" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1050,9 +979,9 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33483145" sideWeight="0.482684" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32963374" sideWeight="0.49568033" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14502165" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1474082" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1061,7 +990,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.4848485" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.482684" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1105,6 +1034,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fixed ph#" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed ph#" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -1135,17 +1068,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DbFacade.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1525747397518" expanded="true" signature="1734:1821" ph=" INSERT statement (REVIEW)" />
+            <marker date="1525747397518" expanded="true" signature="2730:2768" ph=" INSERT statement" />
+            <marker date="1525747397518" expanded="true" signature="3694:3800" ph=" INSERT statement (MOVIE)" />
+            <marker date="1525747397518" expanded="true" signature="4739:4788" ph=" SELECT statement (MOVIE_USER)" />
+            <marker date="1525747397518" expanded="true" signature="5512:5639" ph=" SELECT statement (MOVIE, REVIEW)" />
+            <marker date="1525747397518" expanded="true" signature="6326:6380" ph=" SELECT statement (REVIEW)" />
+            <marker date="1525747397518" expanded="true" signature="6426:6480" ph=" SELECT statement (REVIEW)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FileParse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="28" column="24" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DBPopulationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="13" column="30" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DbFacadeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="27" column="5" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DbFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1050">
           <caret line="46" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="200" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1525733371288" expanded="true" signature="1734:1821" ph=" INSERT statement (REVIEW)" />
-            <marker date="1525733371288" expanded="true" signature="2730:2768" ph=" INSERT statement" />
-            <marker date="1525733371288" expanded="true" signature="3694:3800" ph=" INSERT statement (MOVIE)" />
-            <marker date="1525733371288" expanded="true" signature="4739:4788" ph=" SELECT statement (MOVIE_USER)" />
-            <marker date="1525733371288" expanded="true" signature="5512:5639" ph=" SELECT statement (MOVIE, REVIEW)" />
-            <marker date="1525733371288" expanded="true" signature="6326:6380" ph=" SELECT statement (REVIEW)" />
-            <marker date="1525733371288" expanded="true" signature="6426:6480" ph=" SELECT statement (REVIEW)" />
+            <marker date="1525747397518" expanded="true" signature="1734:1821" ph=" INSERT statement (REVIEW)" />
+            <marker date="1525747397518" expanded="true" signature="2730:2768" ph=" INSERT statement" />
+            <marker date="1525747397518" expanded="true" signature="3694:3800" ph=" INSERT statement (MOVIE)" />
+            <marker date="1525747397518" expanded="true" signature="4739:4788" ph=" SELECT statement (MOVIE_USER)" />
+            <marker date="1525747397518" expanded="true" signature="5512:5639" ph=" SELECT statement (MOVIE, REVIEW)" />
+            <marker date="1525747397518" expanded="true" signature="6326:6380" ph=" SELECT statement (REVIEW)" />
+            <marker date="1525747397518" expanded="true" signature="6426:6480" ph=" SELECT statement (REVIEW)" />
           </folding>
         </state>
       </provider>
@@ -1195,13 +1184,13 @@
           <caret line="46" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="200" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1525733371288" expanded="true" signature="1734:1821" ph=" INSERT statement (REVIEW)" />
-            <marker date="1525733371288" expanded="true" signature="2730:2768" ph=" INSERT statement" />
-            <marker date="1525733371288" expanded="true" signature="3694:3800" ph=" INSERT statement (MOVIE)" />
-            <marker date="1525733371288" expanded="true" signature="4739:4788" ph=" SELECT statement (MOVIE_USER)" />
-            <marker date="1525733371288" expanded="true" signature="5512:5639" ph=" SELECT statement (MOVIE, REVIEW)" />
-            <marker date="1525733371288" expanded="true" signature="6326:6380" ph=" SELECT statement (REVIEW)" />
-            <marker date="1525733371288" expanded="true" signature="6426:6480" ph=" SELECT statement (REVIEW)" />
+            <marker date="1525747397518" expanded="true" signature="1734:1821" ph=" INSERT statement (REVIEW)" />
+            <marker date="1525747397518" expanded="true" signature="2730:2768" ph=" INSERT statement" />
+            <marker date="1525747397518" expanded="true" signature="3694:3800" ph=" INSERT statement (MOVIE)" />
+            <marker date="1525747397518" expanded="true" signature="4739:4788" ph=" SELECT statement (MOVIE_USER)" />
+            <marker date="1525747397518" expanded="true" signature="5512:5639" ph=" SELECT statement (MOVIE, REVIEW)" />
+            <marker date="1525747397518" expanded="true" signature="6326:6380" ph=" SELECT statement (REVIEW)" />
+            <marker date="1525747397518" expanded="true" signature="6426:6480" ph=" SELECT statement (REVIEW)" />
           </folding>
         </state>
       </provider>
@@ -1247,13 +1236,13 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1525733371288" expanded="true" signature="1734:1821" ph=" INSERT statement (REVIEW)" />
-            <marker date="1525733371288" expanded="true" signature="2730:2768" ph=" INSERT statement" />
-            <marker date="1525733371288" expanded="true" signature="3694:3800" ph=" INSERT statement (MOVIE)" />
-            <marker date="1525733371288" expanded="true" signature="4739:4788" ph=" SELECT statement (MOVIE_USER)" />
-            <marker date="1525733371288" expanded="true" signature="5512:5639" ph=" SELECT statement (MOVIE, REVIEW)" />
-            <marker date="1525733371288" expanded="true" signature="6326:6380" ph=" SELECT statement (REVIEW)" />
-            <marker date="1525733371288" expanded="true" signature="6426:6480" ph=" SELECT statement (REVIEW)" />
+            <marker date="1525747397518" expanded="true" signature="1734:1821" ph=" INSERT statement (REVIEW)" />
+            <marker date="1525747397518" expanded="true" signature="2730:2768" ph=" INSERT statement" />
+            <marker date="1525747397518" expanded="true" signature="3694:3800" ph=" INSERT statement (MOVIE)" />
+            <marker date="1525747397518" expanded="true" signature="4739:4788" ph=" SELECT statement (MOVIE_USER)" />
+            <marker date="1525747397518" expanded="true" signature="5512:5639" ph=" SELECT statement (MOVIE, REVIEW)" />
+            <marker date="1525747397518" expanded="true" signature="6326:6380" ph=" SELECT statement (REVIEW)" />
+            <marker date="1525747397518" expanded="true" signature="6426:6480" ph=" SELECT statement (REVIEW)" />
           </folding>
         </state>
       </provider>
@@ -1290,13 +1279,13 @@
           <caret line="5" column="70" lean-forward="false" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1525733371288" expanded="true" signature="1734:1821" ph=" INSERT statement (REVIEW)" />
-            <marker date="1525733371288" expanded="true" signature="2730:2768" ph=" INSERT statement" />
-            <marker date="1525733371288" expanded="true" signature="3694:3800" ph=" INSERT statement (MOVIE)" />
-            <marker date="1525733371288" expanded="true" signature="4739:4788" ph=" SELECT statement (MOVIE_USER)" />
-            <marker date="1525733371288" expanded="true" signature="5512:5639" ph=" SELECT statement (MOVIE, REVIEW)" />
-            <marker date="1525733371288" expanded="true" signature="6326:6380" ph=" SELECT statement (REVIEW)" />
-            <marker date="1525733371288" expanded="true" signature="6426:6480" ph=" SELECT statement (REVIEW)" />
+            <marker date="1525747397518" expanded="true" signature="1734:1821" ph=" INSERT statement (REVIEW)" />
+            <marker date="1525747397518" expanded="true" signature="2730:2768" ph=" INSERT statement" />
+            <marker date="1525747397518" expanded="true" signature="3694:3800" ph=" INSERT statement (MOVIE)" />
+            <marker date="1525747397518" expanded="true" signature="4739:4788" ph=" SELECT statement (MOVIE_USER)" />
+            <marker date="1525747397518" expanded="true" signature="5512:5639" ph=" SELECT statement (MOVIE, REVIEW)" />
+            <marker date="1525747397518" expanded="true" signature="6326:6380" ph=" SELECT statement (REVIEW)" />
+            <marker date="1525747397518" expanded="true" signature="6426:6480" ph=" SELECT statement (REVIEW)" />
           </folding>
         </state>
       </provider>
@@ -1376,7 +1365,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DBPopulationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
+        <state relative-caret-position="275">
           <caret line="13" column="30" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1386,17 +1375,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DbFacade.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="16" column="45" lean-forward="false" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+        <state relative-caret-position="484">
+          <caret line="85" column="42" lean-forward="false" selection-start-line="85" selection-start-column="42" selection-end-line="85" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1525733371288" expanded="true" signature="1734:1821" ph=" INSERT statement (REVIEW)" />
-            <marker date="1525733371288" expanded="true" signature="2730:2768" ph=" INSERT statement" />
-            <marker date="1525733371288" expanded="true" signature="3694:3800" ph=" INSERT statement (MOVIE)" />
-            <marker date="1525733371288" expanded="true" signature="4739:4788" ph=" SELECT statement (MOVIE_USER)" />
-            <marker date="1525733371288" expanded="true" signature="5512:5639" ph=" SELECT statement (MOVIE, REVIEW)" />
-            <marker date="1525733371288" expanded="true" signature="6326:6380" ph=" SELECT statement (REVIEW)" />
-            <marker date="1525733371288" expanded="true" signature="6426:6480" ph=" SELECT statement (REVIEW)" />
+            <marker date="1525747397518" expanded="true" signature="1734:1821" ph=" INSERT statement (REVIEW)" />
+            <marker date="1525747397518" expanded="true" signature="2730:2768" ph=" INSERT statement" />
+            <marker date="1525747397518" expanded="true" signature="3694:3800" ph=" INSERT statement (MOVIE)" />
+            <marker date="1525747397518" expanded="true" signature="4739:4788" ph=" SELECT statement (MOVIE_USER)" />
+            <marker date="1525747397518" expanded="true" signature="5512:5639" ph=" SELECT statement (MOVIE, REVIEW)" />
+            <marker date="1525747397518" expanded="true" signature="6326:6380" ph=" SELECT statement (REVIEW)" />
+            <marker date="1525747397518" expanded="true" signature="6426:6480" ph=" SELECT statement (REVIEW)" />
           </folding>
         </state>
       </provider>
