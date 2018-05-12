@@ -19,7 +19,10 @@ public class runner {
 
             Spark.get("/homepage", controller::displayHome);
 
-            db.addMovie("Animal House", "0000000000001", "Comedy", "R", "English", new Time(90 * 60 * 1000), 1978);
+
+            Spark.post("/post-stevensPage", controller::displayGenrePost);
+
+            //db.addMovie("Animal House", "0000000000001", "Comedy", "R", "English", new Time(90 * 60 * 1000), 1978);
 
             db.close();
 
