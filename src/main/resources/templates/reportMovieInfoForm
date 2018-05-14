@@ -1,37 +1,17 @@
-<html>
-<head>MovieInfoReport</head>
-<p>
-<form action="reportMovieInfo">
-  <input type="text" id="title" name="title">
-  <input type="submit">
-</form> <br>
-<form action="reportMovieInfo">
-  <input type="text" id="ISAN_ID" name="ISAN_ID">
-  <input type="submit">
-</form> <br>
-<form action="reportMovieInfo">
-  <input type="text" id="genre" name="genre">
-  <input type="submit">
-</form> <br>
-<form action="reportMovieInfo">
-  <input type="text" id="MPAA_Rating" name="MPAA_Rating">
-  <input type="submit">
-</form> <br>
-<form action="reportMovieInfo">
-  <input type="text" id="language" name="language">
-  <input type="submit">
-</form> <br>
-<form action="reportMovieInfo">
-  <input type="text" id="length" name="length">
-  <input type="submit">
-</form> <br>
-<form action="reportMovieInfo">
-  <input type="text" id="date" name="date">
-  <input type="submit">
-</form> <br> <br>
+{{>header.hbs}}
+<ul>
+    {{#movie}}
+        <ul>
+            <li>Title: {{title}}</li>
+            <li>ISAN ID: {{ISAN_ID}}</li>
+            <li>Genre: {{genre}}</li>
+            <li>MPAA Rating: {{MPAA_Rating}}</li>
+            <li>Language: {{language}}</li>
+            <li>Length: {{length}}</li>
+            <li>date: {{Date}}</li>
+            <br>
+        </ul>
+    {{/movie}}
+</ul>
 
-<button type="submit">Submit</button>
-<br> <br> <br>
-<a href="/homepage">Back to homepage</a>
-</p>
-</html>
+{{>footer.hbs}}
