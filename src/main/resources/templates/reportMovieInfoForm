@@ -2,13 +2,13 @@
 <ul>
     {{#movie}}
         <ul>
-            <li>title: {{title}}</li>
-            <li>title: {{title}}</li>
-            <li>title: {{title}}</li>
-            <li>title: {{title}}</li>
-            <li>title: {{title}}</li>
-            <li>title: {{title}}</li>
-            <li>title: {{title}}</li>
+            <li>Title: {{title}}</li>
+            <li>ISAN ID: {{ISAN_ID}}</li>
+            <li>Genre: {{genre}}</li>
+            <li>MPAA Rating: {{MPAA_Rating}}</li>
+            <li>Language: {{language}}</li>
+            <li>Length: {{length}}</li>
+            <li>date: {{Date}}</li>
             <br>
         </ul>
     {{/movie}}
