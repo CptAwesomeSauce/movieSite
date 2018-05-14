@@ -19,8 +19,8 @@ public class DbFacade implements AutoCloseable {
         System.out.println("this is working and building as desired");
         //open connection to DB
         Connection conn = null;
-        //url = "jdbc:mariadb://mal.cs.plu.edu:3306/367_2018_yellow";
-        url = "jdbc:mariadb://127.0.0.1:2000/367_2018_yellow";
+        url = "jdbc:mariadb://mal.cs.plu.edu:3306/367_2018_yellow";
+        //url = "jdbc:mariadb://127.0.0.1:2000/367_2018_yellow";
         username = "yellow_2018";
         password = "367rocks!";
         connected = false;
