@@ -9,6 +9,7 @@ import java.util.Map;
 
 import static spark.Spark.before;
 import static spark.Spark.post;
+import static spark.Spark.get;
 
 /**
  * Created by stopp on 4/24/2018.
@@ -23,10 +24,11 @@ public class runner {
 
         post( "/authenticate", controller::postLoginForm);
         post( "/deauthenticate", controller::releaseLogin);
-        Spark.post("/post-stevensPage", controller::displayGenrePost);
-        Spark.get("/user/userhome", controller::getUserHome);
-        Spark.get("/mod/modhome", controller::getModHome);
-        Spark.get("/admin/adminhome", controller::getAdminHome);
+        post("/post-stevensPage", controller::displayGenrePost);
+        get("/newuser", controller::createNewUser);
+        get("/user/userhome", controller::getUserHome);
+        get("/mod/modhome", controller::getModHome);
+        get("/admin/adminhome", controller::getAdminHome);
 
             //db.addMovie("Animal House", "0000000000001", "Comedy", "R", "English", new Time(90 * 60 * 1000), 1978);
         before("/admin/*", controller::adminBeforeFilter);

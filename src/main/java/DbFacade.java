@@ -203,4 +203,8 @@ public class DbFacade implements AutoCloseable {
             return 0;
         }
     }
+
+    public Boolean createNewUser(String fname, String lname, String id, String pwd){
+        return true;
+    }
 }
