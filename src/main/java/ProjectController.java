@@ -108,4 +108,25 @@ public class ProjectController {
         }
     }
 
+    public Object createNewUser(Request req, Response resp) {
+        String fname = req.queryParams("fname");
+        String lname = req.queryParams("lname");
+        String uID = req.queryParams("userid");
+        String pwd1 = req.queryParams("pword");
+        String pwd2 = req.queryParams("pwordconf");
+
+        if (pwd1.equals(pwd2)) {
+            try (DbFacade db = new DbFacade()) {
+                Boolean result = db.createNewUser(fname, lname, uID, pwd1);
+                Map<String,Object> data = new HashMap<>();
+                data.put("msg", "success");
+                return runner.renderTemplate(data, "homepage.hbs");
+            } catch (SQLException ex) {
+                Map<String,Object> data = new HashMap<>();
+                data.put("errorMsg", "Login failed!");
+                return runner.renderTemplate(data, "homepage.hbs");
+            }
+        }
+    }
+
 }
