@@ -123,9 +123,13 @@ public class ProjectController {
                 return runner.renderTemplate(data, "homepage.hbs");
             } catch (SQLException ex) {
                 Map<String,Object> data = new HashMap<>();
-                data.put("errorMsg", "Login failed!");
+                data.put("msg", "Login failed!");
                 return runner.renderTemplate(data, "homepage.hbs");
             }
+        }else{
+            Map<String,Object> data = new HashMap<>();
+            data.put("msg", "password do not match!");
+            return runner.renderTemplate(data, "homepage.hbs");
         }
     }
 
