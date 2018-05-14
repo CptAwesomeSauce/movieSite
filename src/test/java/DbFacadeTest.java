@@ -15,7 +15,7 @@ public class DbFacadeTest {
     @Test
     public void testOpenClose() throws SQLException {
         DbFacade db = new DbFacade();
-        assertTrue(db.getConnected());
+        assertTrue(db.getConn() != null);
     }
 
     @Test

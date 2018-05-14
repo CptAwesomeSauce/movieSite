@@ -7,23 +7,31 @@ import spark.template.handlebars.HandlebarsTemplateEngine;
 
 import java.util.Map;
 
+import static spark.Spark.before;
+import static spark.Spark.post;
+
 /**
  * Created by stopp on 4/24/2018.
  */
 public class runner {
     public static void main(String[] args) throws SQLException {
 
-            DbFacade db = new DbFacade();
+        DbFacade db = new DbFacade();
+        ProjectController controller = new ProjectController();
 
-            ProjectController controller = new ProjectController();
+        Spark.get("/homepage", controller::displayHome);
 
-            Spark.get("/homepage", controller::displayHome);
-
-
-            Spark.post("/post-stevensPage", controller::displayGenrePost);
+        post( "/authenticate", controller::postLoginForm);
+        post( "/deauthenticate", controller::releaseLogin);
+        Spark.post("/post-stevensPage", controller::displayGenrePost);
+        Spark.get("/user/userhome", controller::getUserHome);
+        Spark.get("/mod/modhome", controller::getModHome);
+        Spark.get("/admin/adminhome", controller::getAdminHome);
 
             //db.addMovie("Animal House", "0000000000001", "Comedy", "R", "English", new Time(90 * 60 * 1000), 1978);
-
+        before("/admin/*", controller::adminBeforeFilter);
+        before("/mod/*", controller::modBeforeFilter);
+        before("/user/*", controller::userBeforeFilter);
             db.close();
 
 

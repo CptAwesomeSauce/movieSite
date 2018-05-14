@@ -8,47 +8,39 @@ import java.util.Date;
 
 public class DbFacade implements AutoCloseable {
 
-    private Connection conn;
-    private boolean connected;
+    private Connection conn = null;
     private String url;
     private String username;
     private String password;
 
     // I learned GIT [DAVE - (253 -778 -0985)
-    public DbFacade() {
-        System.out.println("this is working and building as desired");
-        //open connection to DB
-        Connection conn = null;
-        //url = "jdbc:mariadb://mal.cs.plu.edu:3306/367_2018_yellow";
-        url = "jdbc:mariadb://127.0.0.1:2000/367_2018_yellow";
-        username = "yellow_2018";
-        password = "367rocks!";
-        connected = false;
-
-        try {
-            conn = DriverManager.getConnection(url, username, password);
-            connected = true;
-            if(conn!=null){System.out.println("we have a connection");}
-        } catch (SQLException e) {
-            System.out.println("connetion error:{" + e.getMessage() + "}");
-        }
+    public DbFacade() throws SQLException {
+        openDB();
     }
 
-    public boolean getConnected(){
-        return connected;
+    private void openDB() throws SQLException {
+        // Connect to the database
+        //url = "jdbc:mariadb://mal.cs.plu.edu:3306/367_2018_yellow";
+        String url = "jdbc:mysql://127.0.0.1:2000/367_2018_yellow";
+        String username = "yellow_2018";
+        String password = "367rocks!";
+
+        conn = DriverManager.getConnection(url, username, password);
+    }
+
+
+    public Connection getConn() {
+        return conn;
     }
 
     //close DB connection
     public void close() {
-        //close connection to DB when finished
         try {
-            if (conn != null) {
-                conn.close();
-                connected = false;
-            }
+            if(conn != null) conn.close();
         } catch (SQLException e) {
-            System.out.println("connetion closure error:{" + e.getMessage() + "}");
+            System.err.println("Failed to close database connection: " + e);
         }
+        conn = null;
     }
 
     //add new review to table
@@ -58,7 +50,6 @@ public class DbFacade implements AutoCloseable {
 
         try {
             String sql = "INSERT INTO review (dateTime, User_ID, isanID, comments, rating) VALUES(?, ?, ?, ?, ?);";
-            conn = DriverManager.getConnection(url, username, password);
             PreparedStatement pstmt = conn.prepareStatement(sql);
             pstmt.clearParameters();
             pstmt.setObject(1, param);
@@ -67,7 +58,6 @@ public class DbFacade implements AutoCloseable {
             pstmt.setString(4, comments);
             pstmt.setString(5, rating);
             int count = pstmt.executeUpdate();
-            conn.close();
             if(count > 0)
                 return true;
             else
@@ -84,7 +74,6 @@ public class DbFacade implements AutoCloseable {
                          String uPass, int type, int blocked) {
         try {
             String sql = "INSERT INTO user VALUES (?,?,?,?,?,?);";
-            conn = DriverManager.getConnection(url, username, password);
             PreparedStatement pstmt = conn.prepareStatement(sql);
             pstmt.clearParameters();
             pstmt.setString(1, fname);
@@ -94,7 +83,6 @@ public class DbFacade implements AutoCloseable {
             pstmt.setInt(5, type);
             pstmt.setInt(6, blocked);
             int count = pstmt.executeUpdate();
-            conn.close();
             if(count > 0)
                 return true;
             else
@@ -109,7 +97,6 @@ public class DbFacade implements AutoCloseable {
     public boolean addMovie(String title, String isanID, String genre, String mpaa, String lang, Time length, int date) {
         try {
             String sql = "INSERT INTO movie(title, isan_ID, genre, MPAA_rating, language, length, date) VALUES( ?, ?, ?, ?, ?, ?, ?)";
-            conn = DriverManager.getConnection(url, username, password);
             PreparedStatement pstmt = conn.prepareStatement(sql);
             pstmt.clearParameters();
             pstmt.setString(1, title);
@@ -120,7 +107,6 @@ public class DbFacade implements AutoCloseable {
             pstmt.setTime(6, length);
             pstmt.setInt(7, date);
             int count = pstmt.executeUpdate();
-            conn.close();
             if(count > 0)
                 return true;
             else
@@ -137,7 +123,6 @@ public class DbFacade implements AutoCloseable {
         ResultSet r = null;
         try {
             String sql =   "SELECT COUNT(*) FROM movie_user WHERE ISAN_ID = ? ";
-            conn = DriverManager.getConnection(url, username, password);
             PreparedStatement pstmt = conn.prepareStatement(sql);
             pstmt.clearParameters();
             pstmt.setString(1, isanID);
@@ -157,7 +142,6 @@ public class DbFacade implements AutoCloseable {
         try {
         String sql = "SELECT * FROM movie, review "+
                 "WHERE movie.ISAN_ID=review.isanID AND movie.genre LIKE ? AND review.rating >= ?";
-            conn = DriverManager.getConnection(url, username, password);
             PreparedStatement pstmt = conn.prepareStatement(sql);
             pstmt.clearParameters();
             pstmt.setString(1, "%"+genre+"%");
@@ -179,7 +163,6 @@ public class DbFacade implements AutoCloseable {
             }else {
                 sql = "SELECT * FROM review WHERE LENGTH(review.comments) > ?";
             }
-            conn = DriverManager.getConnection(url, username, password);
             PreparedStatement pstmt = conn.prepareStatement(sql);
             pstmt.clearParameters();
             pstmt.setInt(1, length);
@@ -198,5 +181,26 @@ public class DbFacade implements AutoCloseable {
         DBPopulation pop = new DBPopulation(url,username,password);
         pop.populateMovies();
 
+    }
+
+    public int authenticateUser( String username, String password ) throws SQLException {
+        String sql = "SELECT user_type FROM user WHERE " +
+                " user_ID = ? AND " +
+                " password = ?";
+        PreparedStatement pstmt = conn.prepareStatement(sql);
+        pstmt.clearParameters();
+        pstmt.setString(1, username);
+        pstmt.setString(2, password);
+        ResultSet rset = pstmt.executeQuery();
+        try {
+            rset.next();
+            return Integer.parseInt(rset.getString(1));
+        }catch(NumberFormatException ex){
+            System.err.println("dbfacade: " + ex.getMessage());
+            return 0;
+        }catch (NullPointerException np){
+            System.err.println("dbfacade: " + np.getMessage());
+            return 0;
+        }
     }
 }
