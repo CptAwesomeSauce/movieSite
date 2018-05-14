@@ -20,8 +20,8 @@ public class DbFacade implements AutoCloseable {
 
     private void openDB() throws SQLException {
         // Connect to the database
-        //url = "jdbc:mariadb://mal.cs.plu.edu:3306/367_2018_yellow";
-        String url = "jdbc:mysql://127.0.0.1:2000/367_2018_yellow";
+        url = "jdbc:mariadb://mal.cs.plu.edu:3306/367_2018_yellow";
+        //String url = "jdbc:mysql://127.0.0.1:2000/367_2018_yellow";
         String username = "yellow_2018";
         String password = "367rocks!";
 

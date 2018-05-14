@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/DBAccess.iml" filepath="$PROJECT_DIR$/.idea/modules/DBAccess.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/DBAccess_main.iml" filepath="$PROJECT_DIR$/.idea/modules/DBAccess_main.iml" group="DBAccess" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/DBAccess_test.iml" filepath="$PROJECT_DIR$/.idea/modules/DBAccess_test.iml" group="DBAccess" />
+      <module fileurl="file://$PROJECT_DIR$/movieSite.iml" filepath="$PROJECT_DIR$/movieSite.iml" />
     </modules>
   </component>
 </project>
